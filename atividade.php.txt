@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><?php echo "Sorveteria Delícia"; ?></title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ffcccb;
+            padding: 20px;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            background-color: #ffcccb;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo à <?php echo "Sorveteria Delícia"; ?></h1>
+    </header>
+    <main>
+        <p>Os melhores sorvetes da cidade estão aqui!</p>
+        <img src="https://example.com/sorvete.jpg" alt="Imagem de sorvete">
+    </main>
+    <footer>
+        <p>© 2024 Sorveteria Delícia. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
